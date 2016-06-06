@@ -25,10 +25,7 @@
 			<input type="submit" class="btn btn-primary" value="저장" />
 		</form>
 	</section>
-	<footer class="container">
-		<a href="http://bookonspring.com">BookOnSpring</a>
-	</footer>
-	<script src="/webjars/jquery/jquery.min.js"></script> <!-- ① -->
+	<%@ include file="/WEB-INF/jspf/footer.jspf"%> <!-- ① -->
 	<script type="text/javascript"> <!-- ②  -->
 		$('form').submit(function(event) { <!-- ③ -->
 			$('form input:text, textarea').each(function() { <!-- ④ -->

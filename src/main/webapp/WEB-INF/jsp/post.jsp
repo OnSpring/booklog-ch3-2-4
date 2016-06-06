@@ -24,10 +24,7 @@
 			<button type="button" class="btn btn-danger">Delete</button>
 		</a>
 	</section>
-	<footer class="container">
-		<a href="http://bookonspring.com">BookOnSpring</a>
-	</footer>
-	<script src="/webjars/jquery/jquery.min.js"></script> <!-- ① -->
+	<%@ include file="/WEB-INF/jspf/footer.jspf"%> <!-- ① -->
 	<script type="text/javascript">
 		$("#delete").click(function() { <!-- ② -->
 			if (!confirm("정말로 삭제할까요?")) {

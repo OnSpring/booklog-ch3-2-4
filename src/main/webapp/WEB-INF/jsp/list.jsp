@@ -26,8 +26,6 @@
 			<button type="button" class="btn btn-success">Write</button>
 		</a>
 	</section>
-	<footer class="container">
-		<a href="http://bookonspring.com">BookOnSpring</a>
-	</footer>
+	<%@ include file="/WEB-INF/jspf/footer.jspf"%>
 </body>
 </html>
